@@ -81,7 +81,7 @@
 
 <script>
     let clickCount = 0;
-
+    window.onfocus = () => { clickCount = 0; };
     function showSurprise() {
         clickCount++;
 
